@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns0:NewInvoice xmlns:ns0="http://XMLDiff_Project.NewInvoice">
+  <NewID>123</NewID>
+  <NewComment>No-Comment</NewComment>
+  <Person>
+    <FirstName>Molham</FirstName>
+    <LastName>Khalil</LastName>
+    <Address>
+      <Street>Östanåvägen</Street>
+      <Housenumber>
+        <Number>75</Number>
+        <Letter>Q</Letter>
+      </Housenumber>
+      <FirstName>name1</FirstName>
+    </Address>
+    <Phones>
+      <Mobile>0760825650</Mobile>
+      <LandLine>022234546</LandLine>
+      <FirstName>name1</FirstName>
+    </Phones>
+  </Person>
+  <Person>
+    <FirstName>Ulf</FirstName>
+    <LastName>Domanders</LastName>
+  </Person>
+  <FirstName>name1</FirstName>
+</ns0:NewInvoice>

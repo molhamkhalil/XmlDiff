@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\bin\Debug\ConsoleXmlDiff.exe
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\bin\Debug\ConsoleXmlDiff.pdb
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\bin\Debug\xmldiffpatch.dll
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\bin\Debug\XmlDiffPatch.View.dll
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.exe
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.pdb
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.Properties.Resources.resources
+C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+<s0:Invoice xmlns:s0="http://XMLDiff_Project.Invoice" >
+  <ID>123</ID>
+  <Comment>No-Comment</Comment>
+  <Name>Molham</Name>
+  <SurName>Khalil</SurName>
+  <Company>iBiz Solutions</Company>
+  <Birthday>19880913</Birthday>
+</s0:Invoice>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns0:NewInvoice xmlns:ns0="http://XMLDiff_Project.NewInvoice">
+  <NewID>111</NewID>
+  <NewComment>Test_3</NewComment>
+  <test>
+  </test>
+</ns0:NewInvoice>

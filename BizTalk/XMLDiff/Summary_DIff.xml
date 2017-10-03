@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DiffSummary>
+  <Information>
+    <DateTime>2017-09-12 08:16:31</DateTime>
+  </Information>
+  <TestCases>
+    <TestCase Name="Test_1" Missed="false">passed</TestCase>
+    <TestCase Name="Test_2" Missed="false">failed</TestCase>
+    <TestCase Name="Test_3" Missed="false">failed</TestCase>
+    <TestCase Name="Test_4" Missed="false">failed</TestCase>
+    <TestCase Name="Test_5" Missed="false">passed</TestCase>
+    <TestCase Name="Test_6" Missed="true">failed</TestCase>
+  </TestCases>
+</DiffSummary>
