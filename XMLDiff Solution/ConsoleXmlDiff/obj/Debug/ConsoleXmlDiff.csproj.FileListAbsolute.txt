@@ -6,3 +6,9 @@ C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug
 C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.pdb
 C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.Properties.Resources.resources
 C:\Users\Administrator\Desktop\XMLDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.csproj.GenerateResource.Cache
+C:\Projects\XmlDiff\XMLDiff Solution\ConsoleXmlDiff\bin\Debug\ConsoleXmlDiff.exe
+C:\Projects\XmlDiff\XMLDiff Solution\ConsoleXmlDiff\bin\Debug\ConsoleXmlDiff.pdb
+C:\Projects\XmlDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.Properties.Resources.resources
+C:\Projects\XmlDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.csproj.GenerateResource.Cache
+C:\Projects\XmlDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.exe
+C:\Projects\XmlDiff\XMLDiff Solution\ConsoleXmlDiff\obj\Debug\ConsoleXmlDiff.pdb

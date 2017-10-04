@@ -36,9 +36,9 @@ namespace ConsoleXmlDiff.Code.Classes
                 XmlNode configurationNode = config.DocumentElement.SelectSingleNode("/configuration");
 
                 DiffFileExtension = configurationNode["DiffFileExtension"].InnerText;
-                NewToken = configurationNode["NewToken"].InnerText + DiffFileExtension;
-                ReferenceToken = configurationNode["ReferenceToken"].InnerText + DiffFileExtension;
-                DiffToken = configurationNode["DiffToken"].InnerText + DiffFileExtension;
+                NewToken = configurationNode["NewToken"].InnerText;
+                ReferenceToken = configurationNode["ReferenceToken"].InnerText;
+                DiffToken = configurationNode["DiffToken"].InnerText;
                 SearchPattern = "*" + DiffFileExtension;
                 SummaryToken = configurationNode["SummaryToken"].InnerText;
                 MasterToken = configurationNode["MasterToken"].InnerText;

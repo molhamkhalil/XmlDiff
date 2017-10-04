@@ -82,9 +82,9 @@ namespace ConsoleXmlDiff.Code
                 bool[] excludingNodesLamps = { false, false };
 
                 #region preparing reference, new, and diff directories
-                referenceFile = Path.Combine(Configuration.ReferenceDirectory, file + Configuration.ReferenceToken);
-                newFile = Path.Combine(Configuration.NewDirectory, file + Configuration.NewToken);
-                diffFile = Path.Combine(Configuration.DiffDirectory, file + Configuration.DiffToken);
+                referenceFile = Path.Combine(Configuration.ReferenceDirectory, file + Configuration.ReferenceToken + Configuration.DiffFileExtension);
+                newFile = Path.Combine(Configuration.NewDirectory, file + Configuration.NewToken + Configuration.DiffFileExtension);
+                diffFile = Path.Combine(Configuration.DiffDirectory, file + Configuration.DiffToken + Configuration.DiffFileExtension);
                 #endregion
 
                 if (DataStorage.MissedReferenceFiles != null && DataStorage.MissedReferenceFiles.Contains(file))
@@ -274,7 +274,7 @@ namespace ConsoleXmlDiff.Code
                     testCaseName = currentXmlDiffFile;
 
                     newDocument = new XmlDocument();
-                    newDocument.Load(Path.Combine(Configuration.DiffDirectory, currentXmlDiffFile + Configuration.DiffToken));
+                    newDocument.Load(Path.Combine(Configuration.DiffDirectory, currentXmlDiffFile + Configuration.DiffToken + Configuration.DiffFileExtension));
 
                     tempRoot = newDocument.DocumentElement;
                     tempTestCase = newDocument.CreateElement("TestCase");
@@ -288,7 +288,7 @@ namespace ConsoleXmlDiff.Code
                     newTestCase = masterDocument.ImportNode(tempTestCase, true);
                     testCases.AppendChild(newTestCase);
 
-                    File.Delete(Path.Combine(Configuration.DiffDirectory, currentXmlDiffFile + Configuration.DiffToken));
+                    File.Delete(Path.Combine(Configuration.DiffDirectory, currentXmlDiffFile + Configuration.DiffToken + Configuration.DiffFileExtension));
                 }
                 #endregion
 

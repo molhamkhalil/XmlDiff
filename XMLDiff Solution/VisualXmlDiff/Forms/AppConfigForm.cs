@@ -21,9 +21,9 @@ namespace VisualXmlDiff.Forms
         private void AppConfigForm_Load(object sender, EventArgs e)
         {
             Configuration.Get();
-            NewFilesToken_TextBox.Text = Configuration.NewToken.Replace(Configuration.DiffFileExtension, string.Empty);
-            ReferenceFilesToken_TextBox.Text = Configuration.ReferenceToken.Replace(Configuration.DiffFileExtension, string.Empty);
-            DiffFilesToken_TextBox.Text = Configuration.DiffToken.Replace(Configuration.DiffFileExtension, string.Empty);
+            NewFilesToken_TextBox.Text = Configuration.NewToken;
+            ReferenceFilesToken_TextBox.Text = Configuration.ReferenceToken;
+            DiffFilesToken_TextBox.Text = Configuration.DiffToken;
             MasterFileToken_TextBox.Text = Configuration.MasterToken;
             SummaryFileToken_TextBox.Text = Configuration.SummaryToken;
             DiffFileName_TextBox.Text = Configuration.DiffFileName;

@@ -18,7 +18,7 @@ namespace ConsoleXmlDiff.Code.Classes
         {
             NewFiles = Directory.GetFiles(Configuration.NewDirectory, Configuration.SearchPattern);
             for (int i = 0; i < NewFiles.Length; i++)
-                NewFiles[i] = Path.GetFileName(NewFiles[i]);
+                NewFiles[i] = Path.GetFileNameWithoutExtension(NewFiles[i]);
 
             foreach (string file in NewFiles)
                 if (!(file.Contains(Configuration.NewToken)))
@@ -33,7 +33,7 @@ namespace ConsoleXmlDiff.Code.Classes
         {
             DiffFiles = Directory.GetFiles(Configuration.DiffDirectory, Configuration.SearchPattern);
             for (int i = 0; i < DiffFiles.Length; i++)
-                DiffFiles[i] = Path.GetFileName(DiffFiles[i]);
+                DiffFiles[i] = Path.GetFileNameWithoutExtension(DiffFiles[i]);
 
             foreach (string file in DiffFiles)
                 if (!(file.Contains(Configuration.DiffToken)) || file.Contains(Configuration.SummaryToken) || file.Contains(Configuration.MasterToken))
@@ -51,7 +51,7 @@ namespace ConsoleXmlDiff.Code.Classes
 
             foreach (string file in DataStorage.NewFiles)
             {
-                referenceFile = Path.Combine(Configuration.ReferenceDirectory, file + Configuration.ReferenceToken);
+                referenceFile = Path.Combine(Configuration.ReferenceDirectory, file + Configuration.ReferenceToken + Configuration.DiffFileExtension);
                 if (!File.Exists(referenceFile))
                 {
                     if (!missedReferenceFileFound)
