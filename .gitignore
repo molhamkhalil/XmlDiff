@@ -5,6 +5,7 @@
 
 /TestData
 /BizTalk
+/XMLDiff Solution/ConsoleXmlDiff/Configurations/*
 
 # User-specific files
 *.suo
